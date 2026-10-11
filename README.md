@@ -85,7 +85,7 @@ The data follows a **star schema**: one thin fact table surrounded by four dimen
 | `Dim_Customers` | Name, gender, age, segment, city, join date | `CustomerID` |
 
 Descriptive attributes (Category, Region, Segment, …) are resolved into the fact table with `INDEX/MATCH` lookups, mirroring the relationship logic of a Power Pivot model while keeping every number auditable with native Excel formulas.
-<img width="917" height="672" alt="ةخيثم" src="https://github.com/user-attachments/assets/5d4c06d6-d4ff-4a9f-92c9-acc32bf8d680" />
+<img width="933" height="666" alt="model" src="https://github.com/user-attachments/assets/c9fd7086-588a-4bd0-a2c7-7fa954a8f787" />
 
 ---
 
